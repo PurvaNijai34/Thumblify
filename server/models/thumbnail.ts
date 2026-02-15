@@ -1,5 +1,3 @@
-// import { IThumbnail } from './../../client/src/assets/assets';
-// server/models/thumbnails.ts
 import mongoose from "mongoose";
 import { TbRuler } from "react-icons/tb";
 
