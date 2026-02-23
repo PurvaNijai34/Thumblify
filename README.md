@@ -258,11 +258,11 @@ http://localhost:5173
 
 <h2> <a class="anchor" id="screenshot">📷Screenshots</a><h2/>
 
-![Home Page](https://github.com/PurvaNijai34/secure-user-profile-access-control/blob/main/frontend/public/Screenshot%202025-12-21%20153936.png)
-![Register Page](https://github.com/PurvaNijai34/secure-user-profile-access-control/blob/main/frontend/public/Screenshot%202025-12-21%20154046.png)
-![Login Page](https://github.com/PurvaNijai34/secure-user-profile-access-control/blob/main/frontend/public/Screenshot%202025-12-21%20154117.png)
-![Dashboard Page _1](https://github.com/PurvaNijai34/secure-user-profile-access-control/blob/main/frontend/public/Screenshot%202025-12-21%20154154.png)
-![Dashboard_Page_2](https://github.com/PurvaNijai34/secure-user-profile-access-control/blob/main/frontend/public/Screenshot%202025-12-21%20154213.png)
+![Home Page](https://github.com/PurvaNijai34/Thumblify/blob/main/client/public/Scrrenshots/Screenshot%202026-02-23%20173927.png)
+![Thumbnail Generating Page](https://github.com/PurvaNijai34/Thumblify/blob/main/client/public/Scrrenshots/image.png)
+![Thumbnai Generated Page](https://github.com/PurvaNijai34/Thumblify/blob/main/client/public/Scrrenshots/Screenshot%202026-02-23%20174414.png)
+![My Generation Page](https://github.com/PurvaNijai34/Thumblify/blob/main/client/public/Scrrenshots/Screenshot%202026-02-23%20174517.png)
+
 
 
 
