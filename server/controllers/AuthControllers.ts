@@ -3,12 +3,33 @@ import User from "../models/user.js";
 import bcrypt from "bcrypt";
 
 /*  REGISTER */
+
 export const registerUser = async (req: Request, res: Response) => {
   try {
     const { name, email, password } = req.body;
 
     if (!name || !email || !password) {
       return res.status(400).json({ message: "All fields are required" });
+    }
+
+    // PASSWORD VALIDATION
+    const minLength = 8;
+    const hasUppercase = /[A-Z]/.test(password);
+    const hasLowercase = /[a-z]/.test(password);
+    const hasNumber = /[0-9]/.test(password);
+    const hasSpecialChar = /[!@#$%^&*]/.test(password);
+
+    if (
+      password.length < minLength ||
+      !hasUppercase ||
+      !hasLowercase ||
+      !hasNumber ||
+      !hasSpecialChar
+    ) {
+      return res.status(400).json({
+        message:
+          "Password must be at least 8 characters and include uppercase, lowercase, number, and special character",
+      });
     }
 
     const userExists = await User.findOne({ email });
@@ -40,7 +61,6 @@ export const registerUser = async (req: Request, res: Response) => {
     res.status(500).json({ message: "Server error" });
   }
 };
-
 /*  LOGIN */
 export const loginUser = async (req: Request, res: Response) => {
   try {
